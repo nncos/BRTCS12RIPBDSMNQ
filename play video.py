@@ -3,7 +3,7 @@ import websockets
 import json
 from PIL import ImageGrab, Image
 
-print('/connect localhost:19131')
+print('/connect localhost:19131')                  #if localhost doesnt work, replace it with your own ip address
 async def mineproxy(websocket):
     print('Connected')
     tosend_queue = []
@@ -63,7 +63,7 @@ async def mineproxy(websocket):
     x_change, y_change = x_img_vid, y_img_vid                                 #selected dimensions of image to use
     count = 100
     x_img_pic,y_img_pic = int(x_ratio*mul_pic),int(y_ratio*mul_pic)
-    type = 1
+    type = 0                                                                    #1=printer, 0=video player
     a = True
     play = False
     invert = False
