@@ -25,3 +25,10 @@
   5. Approx. every in-game tick (~0.1s), 100 particle commands are sent
 - Resource pack:
   - 4096 custom particles (i.e. 4096 pixel colours)
+
+##
+Feel free to provide any feedback
+
+Discord: ᶜᵒˢ#4438
+
+Credits: NNCOS and Qazius
