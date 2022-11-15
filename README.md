@@ -23,11 +23,12 @@
   3. Takes a screenshot and pixelates it
   4. Creates and sends a particle command to Minecraft for every pixel in the image
   5. Approx. every in-game tick (~0.1s), 100 particle commands are sent
+  6. Display is fixed at coordinates (0, 300, 0)
 - Resource pack:
   - 4096 custom particles (i.e. 4096 pixel colours)
 
 ##
-Feel free to provide any feedback
+Feel free to contact me to discuss any questions or comments
 
 Discord: ᶜᵒˢ#4438
 
