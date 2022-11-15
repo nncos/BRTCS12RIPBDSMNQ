@@ -63,7 +63,7 @@ async def mineproxy(websocket):
     x_change, y_change = x_img_vid, y_img_vid                                 #selected dimensions of image to use
     count = 100
     x_img_pic,y_img_pic = int(x_ratio*mul_pic),int(y_ratio*mul_pic)
-    type = 0                                                                    #1=printer, 0=video player
+    type = 0                                                                    #1=printer, 0=live video player
     a = True
     play = False
     invert = False
