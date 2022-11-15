@@ -1,7 +1,7 @@
 # BRTCS12RIPBDSMNQ
 > **B**asic **R**eal-**T**ime **C**lient-**S**ide **12**-bit **R**GB non-**I**nterlaced **P**article-**B**ased **D**isplay **S**ystem in **M**inecraft (Bedrock Edition) by **N**NCOS and **Q**azius
 
-###### *The world's first (probably) live screen sharing program in Minecraft: Bedrock Edition!*
+###### *The world's first (probably) live screen sharing program in Minecraft: Bedrock Edition! (no mods)*
 
 ## How to use
 1. Watch this demonstration video: https://www.youtube.com/watch?v=RH5J9twkyPs&t=16s
