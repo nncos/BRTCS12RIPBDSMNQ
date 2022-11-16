@@ -40,6 +40,17 @@ async def mineproxy(websocket):
                 "commandLine": 'particle "minecraft:{:}" {:.2f} {:} {:.2f}'.format(particle_num, ((x-x_px)/50)+x_coord, y_coord, ((y-y_px)/50)+z_coord)
             }
         }
+    
+    await websocket.send(                                                    #allows messages to be received
+        json.dumps({
+            "header": {               
+                "requestId": 'e7d0d7e9-21d5-4e6c-9d6f-0092c2fcd6ac',
+                "messagePurpose": "subscribe"     
+            },
+            "body": {
+                "eventName": "PlayerMessage"
+            }
+        }))
 
     def cc(command):                               #custom command
         return {
@@ -48,7 +59,7 @@ async def mineproxy(websocket):
                 "messagePurpose": "commandRequest"
             },
             "body": {
-                "commandLine": 'connect 192.168.1.83:19131'
+                "commandLine": 'say test'
             }
         }
 
